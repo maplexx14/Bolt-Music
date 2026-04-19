@@ -124,9 +124,5 @@ npm run dev
 
 Через API — `POST /api/tracks/upload` (multipart: file, title, artist, album, genre, duration) или `POST /api/tracks` с JSON для ручного добавления (если файл уже лежит на диске).
 
-## Замечания
-
-- В проде смени `SECRET_KEY` в docker-compose.
-- CORS и раздачу статики подстрой под свой домен при деплое.
 
 Лицензия: MIT
